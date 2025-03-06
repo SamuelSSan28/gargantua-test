@@ -1,12 +1,13 @@
-FROM node:18-alpine
+FROM node:20-alpine 
 
 WORKDIR /app
 
-RUN npm install -g pnpm
+COPY package.json pnpm-lock.yaml ./
 
-COPY package*.json ./
-
-RUN pnpm install --shamefully-hoist 
+RUN apk add --no-cache curl \
+    && curl -fsSL https://get.pnpm.io/install.sh | sh - \
+    && export PATH="/root/.local/share/pnpm:$PATH" \
+    && pnpm install --frozen-lockfile --shamefully-hoist
 
 COPY . .
 
