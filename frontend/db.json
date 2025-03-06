@@ -1,0 +1,66 @@
+{
+  "loans": [
+    {
+      "id": 1,
+      "name": "João da Silva",
+      "value": 1000,
+      "status": "APPROVED",
+      "latitude": -23.55052,
+      "longitude": -46.633308,
+      "city": "São Paulo",
+      "state": "SP",
+      "country": "Brasil"
+    },
+    {
+      "id": 2,
+      "name": "Maria Oliveira",
+      "value": 2000,
+      "status": "REJECTED",
+      "latitude": -22.906847,
+      "longitude": -43.172896,
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "country": "Brasil"
+    },
+    {
+      "name": "SaMUEL aRAUJO",
+      "status": "PENDING",
+      "value": 123123,
+      "latitude": -4.25256,
+      "longitude": -43.006168,
+      "id": 3
+    },
+    {
+      "name": "SaMUEL aRAUJO",
+      "status": "PENDING",
+      "value": 123213123,
+      "latitude": null,
+      "longitude": null,
+      "id": 4
+    },
+    {
+      "name": "sadasd",
+      "status": "PENDING",
+      "value": 1232,
+      "latitude": -4.25256,
+      "longitude": -43.006168,
+      "id": 5
+    },
+    {
+      "name": "sadasd",
+      "status": "PENDING",
+      "value": 1232,
+      "latitude": -4.25256,
+      "longitude": -43.006168,
+      "id": 6
+    },
+    {
+      "name": "SaMUEL aRAUJO",
+      "status": "PENDING",
+      "value": 12121,
+      "latitude": -4.25256,
+      "longitude": -43.006168,
+      "id": 7
+    }
+  ]
+}
